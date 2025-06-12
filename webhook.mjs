@@ -1,4 +1,4 @@
-import { exec } from "node:child_process/promises"
+import { exec } from "node:child_process"
 // import fs from "node: fs/promises"
 import dotenv from "dotenv"
 dotenv.config()

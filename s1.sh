@@ -20,7 +20,7 @@ echo ""
 
 #exec_path=$HOME/test_clone_ci/main.exe
 echo "Building execution path"
-exec_path=$HOME/.config/yogit/main.exe
+exec_path=$HOME/.config/yogit/main
 
 config="alias yogit=$exec_path"
 echo "---Writing to .bashrc---"

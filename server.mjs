@@ -1,8 +1,7 @@
 import express from "express"
 import morgan from "morgan"
 import dotenv from "dotenv"
-import { urlencoded } from "body-parser"
-import { HandleWebHook } from "./webhook.js"
+import { HandleWebHook } from "./webhook.mjs"
 
 dotenv.config()
 
